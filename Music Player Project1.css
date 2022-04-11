@@ -247,7 +247,7 @@ main {
                 
 .carousel img:nth-child(1) {
 	position: relative;
-	left: 41vw;
+	left: 30vw;
 	z-index: 2;
 }
 /* image which is in the maddle of the carousel */
@@ -258,8 +258,8 @@ main {
 /* if you see it direction wise, then it is the first image in the carousel */
 .carousel img:nth-child(3) {
 	position: relative;
-	right: 41vw;
-	z-index: 1;
+	right: 30vw;
+	z-index: 2;
 }
 
                    /* animations for carousel */
@@ -1037,6 +1037,7 @@ footer {
 	font-size: 20px;
 }
 /* this is the song-duration slider */
+
 #slider {
 	width: 100%;
 	font-size: 12px;
@@ -1046,6 +1047,7 @@ footer {
 	align-items: center;
 	justify-content: center;
 	margin-top: 5px;
+	cursor: pointer;
 }
 /* ////////// */
 .time {
